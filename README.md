@@ -115,5 +115,4 @@ See [tests/README.md](tests/README.md) for what each test checks and how.
   updates for CartPole, and for MsPacman an ε-scheduler, an LR scheduler and
   reward clipping (raw score is still tracked for the reward plots).
 
-Full discussion, figures, results and the "3-month extension" answer are in
-[report/report.md](report/report.md).
+
