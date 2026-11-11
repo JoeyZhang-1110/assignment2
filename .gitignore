@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Scratch / smoke-test outputs (not part of the submission)
+results/_smoke*/
+results/**/_*.txt
+results/**/train_stdout.log
+results/tests/tnet_*          # target-network ablation byproducts (regenerated)
+
+# Report folder (submitted separately on Canvas; not tracked in the repo)
+report/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the real result figures, logs and checkpoints tracked:
+#   results/cartpole/*.png, results/mspacman/*.png, results/tests/*.png,
+#   results/*/*_log.json, results/*/*_model.pt
